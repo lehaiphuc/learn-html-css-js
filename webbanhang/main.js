@@ -1,0 +1,1 @@
+prompt("bạn đã đủ tuổi chưa")

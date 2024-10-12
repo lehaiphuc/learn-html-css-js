@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.dropdown > label{
+    cursor: pointer;
+}
+.dropdown > .content > a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+}
+.dropdown > .content{
+    position: absolute;
+    display: none;
+    box-shadow: 5px 5px 10px;
+    background: rgb(190, 172, 172);
+    min-width: 80px;
+}
+.dropdown:hover > .content{
+    display: block;
+}
+.dropdown > .content > a:hover{
+    background: gray;
+    font-size: 20px;
+}

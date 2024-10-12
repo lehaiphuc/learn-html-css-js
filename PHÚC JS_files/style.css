@@ -1,0 +1,93 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: rgb(65, 148, 134);
+    padding: 30px 20px;
+}
+.logo{
+    float: left;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+header > ul{
+    margin-top: 0;
+}
+header > ul > li{
+    float: left;
+    margin-left: 160px;
+    list-style-type: none;
+}
+header > ul > li >a{
+    text-decoration: none;
+    color: rgb(19, 5, 5);
+}
+header > ul > li >a:hover{
+    color:rgb(121, 175, 20);
+    box-shadow: 1px 1px;
+    font-size: 20px;
+}
+.dropdown > label{
+    cursor: pointer;
+}
+.dropdown >.content  a{
+    display: block;
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.dropdown > .content{
+    position: absolute;
+    display: none;
+    min-width:80px;
+    box-shadow: 5px 5px 10px;
+    background: rgba(0, 0, 0, 0.342);
+}
+.dropdown:hover > .content{
+    display:block;
+}
+.dropdown >.content > a:hover{
+    background-color: white;
+}
+.container > .box > ul >.box-one{
+    border: 1px solid black;
+    width: 200px;
+    height: 300px;
+    float:left;
+    margin-left: 100px;
+    list-style-type: none;
+    border-radius: 8px;
+    box-shadow: 10px 10px;
+}
+.container > .box > ul >.box-one > img{
+    width: 100%;
+    cursor: pointer;
+    
+}
+.container > .box > ul >.box-one >b{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.container > .box > ul >.box-one >label{
+    font-size: 20px;
+    color: red;
+    margin-left: 22%;
+
+}
+.container > .box > ul >.box-one >button{
+    width: 180px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background: rgb(108, 143, 108);
+    color: yellow;
+    border-radius:5px;
+
+}
+.container > .box > ul >.box-one >button:hover{
+    background: black;
+    font-size: 18px;
+    cursor: pointer;
+}
+

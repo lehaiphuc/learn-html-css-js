@@ -1,0 +1,56 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://images.pexels.com/photos/1379640/pexels-photo-1379640.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+}
+.box{
+    border: 0px solid black;
+    width: 500px;
+    height: 500px;
+    margin-left: 450px;
+    margin-top: 50px;
+    background: rgba(0, 0, 0, 0.521);
+    border-radius: 20px;
+}
+.box-one > label{
+    margin-left: 200px;
+    font-size: 30px;
+    color: grey;
+}
+.box-one > input{
+    width: 400px;
+    margin-left: 40px;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.box-one > a{
+    color: rgb(173, 106, 106);
+    text-decoration: none;
+    margin-left: 20px;
+    box-shadow: 3px 3px rgb(106, 106, 150);
+
+}
+.box-one > button{
+    width: 200px;
+    margin-left: 150px;
+    margin-top: 50px;
+    height: 40px;
+    border-radius: 10px;
+    background: rgba(80, 139, 2, 0.534);
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+.box-one > button:hover{
+    background: grey;
+}
+.box-one > b{
+    color: rgba(255, 255, 255, 0.192);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 160px;
+
+}

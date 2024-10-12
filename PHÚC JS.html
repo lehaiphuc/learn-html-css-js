@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHÚC JS</title>
+    
+    
+<link rel="stylesheet" href="./PHÚC JS_files/style.css"><link rel="stylesheet" href="./PHÚC JS_files/all.min.css"></head>
+<body>
+    <header>
+        <div class="logo">
+            <b>SHOP BÁN HÀNG </b>
+            </div>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/index.html"><i class="fa-solid fa-house"></i>TRANG CHỦ</a></li>
+                <li class="dropdown">
+                <label><i class="fa-solid fa-bars"></i> SẢN PHẨM</label>
+                <div class="content">
+                <a href="http://127.0.0.1:5500/index.html">ÁO</a>
+                <a href="http://127.0.0.1:5500/index.html">QUẦN</a>
+                <a href="http://127.0.0.1:5500/index.html">PHỤ KIỆN</a>
+                <a href="http://127.0.0.1:5500/index.html">GIÀY</a>
+
+                </div>
+                </li>
+                <li><a href="http://127.0.0.1:5500/index.html"><i class="fa-solid fa-blog"></i>BLOG</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html"><i class="fa-solid fa-phone"></i>LIÊN HỆ</a></li>
+                
+            </ul>
+    </header>
+    <nav>
+        <div class="container">
+            <div class="box">
+                <ul>
+                    <li class="box-one">
+                    <img src="./PHÚC JS_files/Ao-bong-da-Zocker-mau-cam_2479_HasThumb_Thumb.jpg" alt="áo quần bóng đá hùng dũng">
+                    <b>Quần Áo Đá Bóng Zocker màu Cam</b><br>
+                    <label>150.000VND</label><br>
+                    <button>BUY</button>
+
+                    </li>
+                    <!------------------->
+                    <li class="box-one">
+                    <img src="./PHÚC JS_files/quan-ao-zocker-winner-energy-trang_3848_HasThumb_Thumb.jpg" alt="áo quần bóng đá hùng dũng">
+                    <b>Quần Áo Đá Bóng Zocker màu trắng</b><br>
+                    <label>150.000VND</label><br>
+                    <button>BUY</button>
+                    </li>
+                    <!------------------->
+                    <li class="box-one">
+                    <img src="./PHÚC JS_files/quan-ao-zocker-winner-energy-do_7422_HasThumb_Thumb.jpg" alt="áo quần bóng đá hùng dũng">
+                    <b>Quần Áo Đá Bóng Zocker màu đỏ</b><br>
+                    <label>150.000VND</label><br>
+                    <button>BUY</button>    
+                    </li>
+                    <!------------------->
+                    <li class="box-one">
+                    <img src="./PHÚC JS_files/Ao-bong-da-Zocker-mau-xanh-ngoc_1494_HasThumb_Thumb.jpg" alt="áo quần bóng đá hùng dũng">
+                    <b>Quần Áo Đá Bóng Zocker màu xanh duong</b><br>
+                    <label>150.000VND</label><br>
+                    <button>BUY</button>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
